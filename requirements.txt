@@ -1,0 +1,11 @@
+Flask==3.0.3
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2
+
+# Only needed if your trained pipeline uses these — safe to trim to what
+# your actual best_model.pkl requires:
+scikit-learn==1.5.1
+xgboost==2.1.1
+lightgbm==4.5.0
+catboost==1.2.5

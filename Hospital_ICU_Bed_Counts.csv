@@ -1,0 +1,94 @@
+District,Hospital Name,ICU Beds,HDU Beds
+,dependancy,,
+,unit beds,,
+Ampara,BHA Dehiattakandiya,3,0
+Ampara,BHB Mahaoya,2,0
+Anuradhapura,BHA Thambuththegama,0,4
+Badulla,BHA Diyatalawa,4,0
+Badulla,BHA Mahiyanganaya,3,0
+Badulla,BHB Welimada,0,
+Batticaloa,BHA Kaluwanchikudy,4,
+Batticaloa,BHA Kattankudy,6,13
+Batticaloa,BHA Valaichchenai,2,
+Colombo,DGH Avissawella,4,0
+Colombo,BHA Homagama,5,0
+Galle,BHA Balapitiya,4,0
+Galle,BHA Elpitiya,4,0
+Galle,Number of,,
+Galle,ICU Beds,,
+Galle,Type of Intensive Care Units /,,
+Galle,Remarks,,
+Galle,dependancy,,
+Galle,unit beds,,
+Galle,BHA Udugama,5,
+Gampaha,DGH Gampaha,13,30
+Gampaha,BHA Wathupitiwala,5,5
+Gampaha,BHB Kiribathgoda,0,0
+Gampaha,BHB Meerigama,0,0
+Gampaha,BHB Minuwangoda,0,0
+Hambantota,BHA Tangalle,4,5
+Hambantota,BHB Tissamaharama,0,2
+Hambantota,BHB Walasmulla,2,4
+Jaffna,BHA Point Pedro,2,0
+Jaffna,BHA Tellipalai,0,0
+Jaffna,BHB Chavakachcheri,0,0
+Jaffna,BHB Kayts,0,3
+Jaffna,BHB Ninthavur,0,3
+Jaffna,BHB Thirukovil,0,0
+Jaffna,Number of,,
+Jaffna,ICU Beds,,
+Jaffna,Type of Intensive Care Units /,,
+Jaffna,Remarks,,
+Jaffna,dependancy,,
+Jaffna,unit beds,,
+Jaffna,BH Sammanthurai,5,5
+Kalutara,Kethumathie Women’s Hospital,0,2
+Kalutara,DGH Horana,4,0
+Kalutara,BHA Panadura,4,18
+Kalutara,BHB Pimbura,0,8
+Kandy,BHB Teldeniya,5,0
+Kegalle,BHA Karawanella,3,5
+Kegalle,BHB Mawanella,3,13
+Kegalle,BHB Warakapola,3,8
+Kilinochchi,DGH Kilinochchi,3,3
+Kurunegala,BHA Nikaweratiya,3,9
+Kurunegala,BHB Dambadeniya,4,6
+Kurunegala,BHB Galgamuwa,3,0
+Kurunegala,BHB Polpitigama,0,0
+Kurunegala,Number of,,
+Kurunegala,ICU Beds,,
+Kurunegala,Type of Intensive Care Units /,,
+Kurunegala,Remarks,,
+Kurunegala,dependancy,,
+Kurunegala,unit beds,,
+Mannar,DGH Mannar,4,39
+Mannar,BHB Murunkan,0,6
+Matale,BHA Dambulla,3,6
+Matara,BHA Kamburupitiya,3,1
+Matara,BHB Deniyaya,0,0
+Monaragala,Professor Senaka Bibile Memorial Hospital (BHB Bibile),2,17
+Monaragala,BHB Siyambalanduwa,0,0
+Monaragala,BHB Wellawaya,0,0
+Mullaitivu,DGH Mullaitivu,3,0
+Nuwara Eliya,BHA Dickoya,3,0
+Nuwara Eliya,BHB Rikillagaskada,3,20
+Polonnaruwa,BHA Medirigiriya,0,0
+Polonnaruwa,BHA Puttalam,4,20
+Polonnaruwa,Number of,,
+Polonnaruwa,ICU Beds,,
+Polonnaruwa,Type of Intensive Care Units /,,
+Polonnaruwa,Remarks,,
+Polonnaruwa,dependancy,,
+Polonnaruwa,unit beds,,
+Polonnaruwa,BHB Marawila,2,5
+Ratnapura,BHA Balangoda,3,0
+Ratnapura,BHB Kahawatte,0,0
+Trincomalee,BHA Kinniya,0,2
+Trincomalee,BHA Mutur,0,2
+Trincomalee,BHB Puloddai,0,0
+Vavuniya,DGH Vavuniya,5,0
+Vavuniya,BHB Cheddikulam,0,0
+Vavuniya,Number of,,
+Vavuniya,ICU Beds,,
+Vavuniya,Type of Intensive Care Units /,,
+Vavuniya,Remarks,,

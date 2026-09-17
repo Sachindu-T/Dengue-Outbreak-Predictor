@@ -1,0 +1,968 @@
+District,Hospital Name,Total Hospital Beds,Inpatient Beds
+Line Ministry,were instances,,
+Line Ministry,where patients,,
+Line Ministry,were not provided,,
+Line Ministry,a bed due to,,
+Line Ministry,overcrowding,,
+Line Ministry,Yes/No,,
+Colombo,National Hospital of Sri Lanka,3413,3374
+Kandy,National Hospital - Kandy,2808,2707
+Galle,National Hospital - Galle,2107,2084
+Anuradhapura,Teaching Hospital- Anuradhapura,2037,1955
+Batticaloa,Teaching Hospital- Batticaloa,1257,1205
+Badulla,Teaching Hospital - Badulla,1556,1461
+Gampaha,Teaching Hospital - Colombo North (Ragama),1908,1827
+Colombo,Teaching Hospital- Colombo South (Kalubowila),1344,1283
+Jaffna,Teaching Hospital - Jaffna,1623,1565
+Kurunegala,Teaching Hospital - Kurunegala,2554,2392
+Kalutara,Teaching Hospital - Kalutara,1572,1502
+Kalutara,Teaching Hospital - Kalutara MCH,425,361
+Line Ministry,Inpatient,,
+Line Ministry,Bed,,
+Line Ministry,Occupancy,,
+Line Ministry,Rate,,
+Line Ministry,Average,,
+Line Ministry,duration,,
+Line Ministry,of Stay,,
+Line Ministry,(days),,
+Line Ministry,Turn,,
+Line Ministry,Over,,
+Line Ministry,hospital,,
+Line Ministry,beds,,
+Line Ministry,beds as at,,
+Kurunegala,Teaching Hospital - Kuliyapitiya,694,646
+Kandy,Teaching Hospital - Peradeniya,1062,1006
+Ratnapura,Teaching Hospital - Ratnapura,1642,1405
+Colombo,Castle Street Hospital for Woman,563,466
+Colombo,De Soysa Maternity Hospital for Women,345,305
+Gampaha,Apeksha Hospital Maharagama,1036,976
+Galle,German Sri Lanka Friendship Hospital for Women (Teaching Hospital - Mahamodara),501,465
+Colombo,Lady Ridgeway Hospital for Children,1145,1050
+Colombo,"National Dental Hospital (Teaching) Sri Lanka, Colombo 07",32,32
+Kandy,Sirimavo Bandaranayake Specialized Children Hospital (SBSCH) - Peradeniya,368,353
+Colombo,National Eye Hospital,504,474
+Gampaha,National Hospital for Respiratory Diseases - Welisara,604,511
+Colombo,National Institute of Infectious Disease - Angoda,306,300
+Colombo,"National Institute for Nephrology, Dialysis and Transplantation - Maligawattha",88,60
+Gampaha,Rheumatology & Rehabilitation Hospital - Ragama,231,231
+Polonnaruwa,China-Sri Lanka Friendship National Nephrology Specialized Hospital - Polonnaruwa,318,292
+Colombo,National Institute of Mental Health Angoda,1380,1360
+Gampaha,Leprosy Hospital Hendala,46,24
+Matara,NDGH Kamburugamuwa,520,448
+Ampara,Base Hospital - Akkaraipattu,337,282
+Kalutara,Base Hospital - Beruwala,53,35
+Colombo,Base Hospital - Colombo East,302,285
+Kandy,Base Hospital - Gampola,432,401
+Ampara,Base Hospital - Kalmunai (North),450,413
+Ampara,Base Hospital - Kalmunai (South)- Ashraff Memorial,319,266
+Trincomalee,Base Hospital - Kanthale,251,218
+Ampara,Base Hospital - Potuvil,130,115
+Kalutara,DHA Kadana,,
+Kalutara,DHB Hospital - Dharga town,26,20
+Kalutara,DHC Hospital - Aluthgama,58,56
+Colombo,Sri Jayewardenepura General Hospital,1021,1008
+Gampaha,Wijaya Kumaratunga Memorial Hospital- Seeduwa,124,117
+Line Ministry,Number,,
+Line Ministry,of ICU,,
+Line Ministry,Beds,,
+Colombo,National Hospital of Sri Lanka,131,178
+Kandy,National Hospital - Kandy,62,78
+Galle,National Hospital - Galle,51,54
+Anuradhapura,Teaching Hospital - Anuradhapura,23,97
+Batticaloa,Teaching Hospital - Batticaloa,30,67
+Badulla,Teaching Hospital - Badulla,17,13
+Gampaha,"Teaching Hospital - Colombo North, Ragama",16,6
+Colombo,"Teaching Hospital- Colombo South, Kalubowila",23,34
+Jaffna,Teaching Hospital - Jaffna,23,12
+Kurunegala,Teaching Hospital- Kurunegala,20,0
+Kalutara,Teaching Hospital - Kalutara,5,4
+Kalutara,Teaching Hospital - Kalutara MCH,2,
+Kurunegala,Teaching Hospital- Kuliyapitiya,5,0
+Kandy,Teaching Hospital - Peradeniya,13,0
+Ratnapura,Teaching Hospital- Ratnapura,12,
+Colombo,Castle Street Hospital for Woman,8,0
+Colombo,De Soysa Maternity Hospital for Women,5,10
+Gampaha,Apeksha Hospital Maharagama,21,3
+Galle,German Sri Lanka Friendship Hospital for Women (Mahamodara),4,0
+Colombo,Lady Ridgeway Hospital for Children,53,95
+Colombo,National Dental Hospital,3,0
+Kandy,Sirimavo Bandaranayake Specialized Children Hospital,14,
+Colombo,National Eye Hospital,0,0
+Gampaha,"National Hospital for Respiratory Diseases, Welisara",6,4
+Colombo,"National Institute of Infectious Disease, Angoda",8,0
+Colombo,"National Institute for Nephrology, Dialysis and Transplantation - Maligawattha",5,2
+Gampaha,Rheumatology & Rehabilitation Hospital - Ragama,0,0
+Polonnaruwa,China-Sri Lanka Friendship National Nephrology Specialized Hospital - Polonnaruwa,2,17
+Colombo,National Institute of Mental Health Angoda,0,9
+Gampaha,Leprosy Hospital Hendala,0,0
+Line Ministry,"SICU 4; MICU 6; NICU incubators10, cots 12, beds for mothers of patients 12",,
+Line Ministry,"General ICU. In addition, 9 Incubators",,
+Line Ministry,SICU & MICU,,
+Line Ministry,MICU 4; SICU 8; SCBU 4; NICU 13 Neonatal ICU beds not counted in ICU beds,,
+Line Ministry,SICU 6; MICU 6,,
+Line Ministry,"SICU 5, MICU5 & CCU4; (HDU = MICU 5 Respiratory 6, Ward 22)",,
+Line Ministry,Neonatal ICU 6,,
+Line Ministry,General,,
+Line Ministry,MICU 4; SICU4; NICU incubators 6 & Warm cots 6,,
+Line Ministry,SICU/NICU/MICU,,
+Line Ministry,Pediatric HDUs 5,,
+Ampara,Base Hospital - Akkaraipattu,4,50
+Kalutara,Base Hospital - Beruwala,0,0
+Colombo,"Base Hospital - Colombo East, Mulleriyawa",4,30
+Kandy,Base Hospital - Gampola,4,10
+Ampara,Base Hospital - Kalmunai (North),5,9
+Ampara,Base Hospital - Kalmunai (South)- Ashraff Memorial,5,3
+Trincomalee,Base Hospital - Kanthale,3,0
+Ampara,Base Hospital - Potuvil,0,0
+Kalutara,DH Hospital - Dharga town,0,0
+Kalutara,DH Hospital - Aluthgama,0,0
+Colombo,Sri Jayewardenepura General Hospital,45,27
+Gampaha,Wijaya Kumaratunga Memorial Hospital- Seeduwa,0,0
+,instances where,,
+,patients were not,,
+,provided a bed due to,,
+,overcrowding Yes/No,,
+Ampara,BHA Dehiattakandiya,223,198
+Ampara,BHB Mahaoya,135,107
+Ampara,DHB Padiyathalawa,100,50
+Ampara,DHC Damana,42,35
+Ampara,DHC Lahugala,37,35
+Ampara,DHC Panama,20,20
+Ampara,DHC Senerathpura,43,39
+Ampara,DHC Thottama,15,15
+Ampara,DHC Wadinagala,29,20
+Anuradhapura,BHA Thambuttegama,268,245
+Anuradhapura,BHB Kahatagasdigiliya,102,94
+Anuradhapura,BHB Kebithigollewa,69,58
+Anuradhapura,BHB Kekirawa,108,101
+Anuradhapura,BHB Medawachchiya,162,146
+Anuradhapura,BHB Padaviya,136,113
+Anuradhapura,Inpatient,,
+Anuradhapura,Bed,,
+Anuradhapura,Occupancy,,
+Anuradhapura,Rate,,
+Anuradhapura,Average,,
+Anuradhapura,duration,,
+Anuradhapura,of Stay,,
+Anuradhapura,Turn,,
+Anuradhapura,Over,,
+Anuradhapura,hospital,,
+Anuradhapura,beds,,
+Anuradhapura,beds as at,,
+Anuradhapura,instances where,,
+Anuradhapura,patients were not,,
+Anuradhapura,provided a bed due to,,
+Anuradhapura,overcrowding Yes/No,,
+Anuradhapura,DHA Nochchiyagama,100,92
+Anuradhapura,DHB Elayapaththuwa,49,42
+Anuradhapura,DHB Eppawala,58,44
+Anuradhapura,DHB Galenbindunuwewa,73,68
+Anuradhapura,DHB Galnewa,66,61
+Anuradhapura,DHB Horowpothana,72,59
+Anuradhapura,DHB Huruluwewa,58,50
+Anuradhapura,DHB Maradankadawala,53,49
+Anuradhapura,DHB Mihinthale,84,77
+Anuradhapura,DHB Thalawa,55,52
+Anuradhapura,DHB Thanthirimale,34,29
+Anuradhapura,DHC Andiyagala,29,23
+Anuradhapura,DHC Galkiriyagama,37,29
+Anuradhapura,DHC Habarana,42,37
+Anuradhapura,DHC Kalawewa,32,25
+Anuradhapura,DHC Kallanchiya,14,12
+Anuradhapura,DHC Kapugollewa,18,13
+Anuradhapura,DHC Kattiyawa,18,16
+Anuradhapura,DHC Mahawilachchiya,38,33
+Anuradhapura,DHC Nachchaduwa,21,17
+Anuradhapura,DHC Nagampaha,32,26
+Anuradhapura,DHC Nelumbawa,50,44
+Anuradhapura,DHC Pairamaduwa,21,16
+Anuradhapura,DHC Parasangaswewa,34,28
+Anuradhapura,DHC Rajanganaya Track 05,50,43
+Anuradhapura,DHC RajanganayaTrack 11,37,27
+Anuradhapura,DHC Rambewa,47,39
+Anuradhapura,DHC Ranorawa,30,24
+Anuradhapura,DHC Rathmalgahawewa,38,32
+Anuradhapura,DHC Senapura,42,36
+Anuradhapura,DHC Thammannawa,28,22
+Anuradhapura,DHC Wahalkada,8,6
+Badulla,BHA Diyatalawa,427,335
+Badulla,BHA Mahiyanganaya,562,448
+Badulla,BHB Welimada,249,214
+Badulla,DHA Bandarawela,125,118
+Badulla,DHA Passara,119,112
+Badulla,DHB Girandurukotte,123,70
+Badulla,DHB Haputhale,56,49
+Badulla,DHB Kandakatiya,55,50
+Badulla,DHB Koslanda,63,54
+Badulla,DHB Lunugala,57,54
+Badulla,DHB Matigahathenna,52,51
+Badulla,DHB Meegahakiula,77,63
+Badulla,DHB Uraniya,52,10
+Badulla,DHB Uva-Paranagama,69,31
+Badulla,DHC Bibilegama,1,0
+Badulla,DHC Bogahakumbura,56,42
+Badulla,DHC Boralanda,21,21
+Badulla,Inpatient,,
+Badulla,Bed,,
+Badulla,Occupancy,,
+Badulla,Rate,,
+Badulla,Average,,
+Badulla,duration,,
+Badulla,of Stay,,
+Badulla,Turn,,
+Badulla,Over,,
+Badulla,hospital,,
+Badulla,beds,,
+Badulla,beds as at,,
+Badulla,instances where,,
+Badulla,patients were not,,
+Badulla,provided a bed due to,,
+Badulla,overcrowding Yes/No,,
+Badulla,DHC Dambana,33,17
+Badulla,DHC Dambetenna,6,5
+Badulla,DHC Demodara,27,22
+Badulla,DHC Down Side,2,0
+Badulla,DHC Ekiriyankubura,14,12
+Badulla,DHC Etampitiya,22,18
+Badulla,DHC Galauda,33,25
+Badulla,DHC Glannore,14,12
+Badulla,DHC Haggala,1,0
+Badulla,DHC Haldummulla,54,13
+Badulla,DHC Hopton,34,26
+Badulla,DHC Kahataruppa,20,19
+Badulla,DHC Kanawerella,3,0
+Badulla,DHC Kandagolla,29,23
+Badulla,DHC Kandegedara,24,24
+Badulla,DHC Kirklees,3,0
+Badulla,DHC Mahadowa,2,0
+Badulla,DHC Meedumpitiya,21,0
+Badulla,DHC Mirahawatta,21,16
+Badulla,DHC Nadungamuwa,15,12
+Badulla,DHC Poonagala,4,0
+Badulla,DHC Robary,36,21
+Badulla,DHC Saraniya,2,0
+Badulla,DHC Springvally,20,15
+Badulla,DHC Telbadda,3,0
+Badulla,DHC Udaweriya,0,0
+Badulla,DHC Unagolla,7,0
+Badulla,DHC Ury,4,0
+Badulla,DHC Uva Highland,3,0
+Badulla,DHC Wewegama,4,0
+Badulla,PMCU ballakekuwa,21,12
+Badulla,BHA Kaluwanchikudy,210,202
+Badulla,BHA Kattankudy,250,187
+Badulla,BHA Valaichchenai,244,192
+Badulla,BHB Eravur,114,91
+Badulla,DHA Arayampathy,100,51
+Badulla,DHA Mahiladithivu,120,55
+Badulla,DHA Periyakallar,44,34
+Badulla,DHB Chengalady,60,42
+Badulla,DHB Meeravodai,42,40
+Badulla,DHB Vaharai,40,35
+Badulla,DHC Kathiraweli,35,2
+Badulla,DHC Cheddipalayam,28,24
+Badulla,DHC Karadiyanaru,60,42
+Badulla,DHC Mandapaththady,42,34
+Badulla,DHC Mandur,45,21
+Badulla,DHC Mavadivembu,46,23
+Badulla,DHC Navatkadu,50,46
+Badulla,DHC Palameemmadu,25,21
+Badulla,DHC Palamunai,14,15
+Badulla,DHC Palukamam,31,25
+Batticaloa,DHC Santhivelly,35,29
+Batticaloa,DHC Thuraineelavani,24,16
+Colombo,DGH Avissawella,584,549
+Colombo,BHA Homagama,506,468
+Colombo,DHA Wethara,108,102
+Colombo,DHA Moratuwa,54,50
+Colombo,DHB Maligawaththa,40,32
+Colombo,DHB Padukka,57,54
+Colombo,DHB Thalangama,53,48
+Colombo,DHB Nawagamuwa,70,56
+Colombo,DHB Piliyandala,77,72
+Colombo,DHC Athurugiriya,21,20
+Colombo,DHC Kosgama,32,30
+Colombo,BHA Balapitiya,511,450
+Colombo,Inpatient,,
+Colombo,Bed,,
+Colombo,Occupancy,,
+Colombo,Rate,,
+Colombo,Average,,
+Colombo,duration,,
+Colombo,of Stay,,
+Colombo,Turn,,
+Colombo,Over,,
+Colombo,hospital,,
+Colombo,beds,,
+Colombo,beds as at,,
+Colombo,instances where,,
+Colombo,patients were not,,
+Colombo,provided a bed due to,,
+Colombo,overcrowding Yes/No,,
+Colombo,BHA Elpitiya,389,355
+Colombo,BHA Udugama,191,172
+Colombo,DHA Ambalangoda,60,47
+Colombo,DHA Baddegama,126,111
+Colombo,DHB Batapola,66,60
+Colombo,DHB Bentota,52,52
+Colombo,DHB Hikkaduwa,77,73
+Colombo,DHB Hiniduma,85,85
+Colombo,DHB Imaduwa,84,69
+Colombo,DHB Karandeniya / Borakanda,62,55
+Colombo,DHB Neluwa,60,54
+Colombo,DHB Unawatuna,55,55
+Colombo,DHC Ahangama,42,37
+Colombo,DHC Habaraduwa,52,44
+Colombo,DHC Induruwa,56,52
+Colombo,DHC Madampagama,12,12
+Colombo,DHC Nagoda,15,12
+Colombo,DHC Niyagama,14,12
+Colombo,DHC Opatha,10,9
+Colombo,DHC Pitigala,,
+Colombo,DHC Rathgama,55,51
+Colombo,DHC Thalapitiya,10,8
+Colombo,DHC Uragaha (Uragahasmandiya),28,28
+Gampaha,DGH Gampaha,779,773
+Gampaha,BHA Wathupitiwala,571,558
+Gampaha,BHB Kiribathgoda,102,98
+Gampaha,BHB Meerigama,205,169
+Gampaha,BHB Minuwangoda,169,157
+Gampaha,DHA Divulapitiya,121,108
+Gampaha,DHA Dompe,118,110
+Gampaha,DHB Radawana,91,62
+Gampaha,DHC Akaragama,54,43
+Gampaha,Inpatient,,
+Gampaha,Bed,,
+Gampaha,Occupancy,,
+Gampaha,Rate,,
+Gampaha,Average,,
+Gampaha,duration,,
+Gampaha,of Stay,,
+Gampaha,Turn,,
+Gampaha,Over,,
+Gampaha,hospital,,
+Gampaha,beds,,
+Gampaha,beds as at,,
+Gampaha,instances where,,
+Gampaha,patients were not,,
+Gampaha,provided a bed due to,,
+Gampaha,overcrowding Yes/No,,
+Gampaha,DHC Biyagama,53,37
+Gampaha,DHC Bokalagama,,
+Gampaha,DHC Ja-Ela,41,31
+Gampaha,DHC Malwathuhiripitiya,18,14
+Gampaha,DHC Pamunugama,36,26
+Gampaha,DHC Udupila,39,33
+Hambantota,Ruhunu Suwa Nivahana,30,1
+Hambantota,BHA Tangalle,370,339
+Hambantota,BHB Tissamaharama,222,203
+Hambantota,BHB Walasmulla,247,211
+Hambantota,DHB Ambalantota,78,57
+Hambantota,DHB Angunakolapelassa,76,67
+Hambantota,DHB Beliatta,92,71
+Hambantota,DHB Kariyamaditta,76,65
+Hambantota,DHB Katuwana,72,67
+Hambantota,DHB Lunugamwehera,61,50
+Hambantota,Inpatient,,
+Hambantota,Bed,,
+Hambantota,Occupancy,,
+Hambantota,Rate,,
+Hambantota,Average,,
+Hambantota,duration,,
+Hambantota,of Stay,,
+Hambantota,Turn,,
+Hambantota,Over,,
+Hambantota,hospital,,
+Hambantota,beds,,
+Hambantota,beds as at,,
+Hambantota,instances where,,
+Hambantota,patients were not,,
+Hambantota,provided a bed due to,,
+Hambantota,overcrowding Yes/No,,
+Hambantota,DHB Sooriyawewa,83,71
+Hambantota,DHB Thissa Kirinda,60,52
+Hambantota,DHB Weeraketiya,92,76
+Hambantota,DHC Beragama,27,23
+Hambantota,DHC Gonadeniya,42,34
+Hambantota,DHC Hakuruwela,41,27
+Hambantota,DHC Ihalabeligalla,22,22
+Hambantota,DHC Kirama,56,51
+Hambantota,DHC Middeniya,53,50
+Hambantota,DHC Nakulugamuwa,26,22
+Hambantota,DHC Ranna,37,25
+Hambantota,BHA Point Pedro,294,294
+Hambantota,BHA Tellipalai,589,462
+Hambantota,BHB Chavakachcheri,176,159
+Hambantota,BHB Kayts,54,54
+Hambantota,DHB Atchuvely,46,31
+Hambantota,DHB Chankanai,100,99
+Hambantota,DHB Kopay,58,53
+Hambantota,DHB Valvettithurai,75,64
+Hambantota,DHB Velanai,30,28
+Hambantota,DHC Alaveddy,8,8
+Hambantota,DHC Ampan,2,2
+Hambantota,DHC Analaithivu,19,19
+Hambantota,DHC Delft,15,15
+Hambantota,DHC Gurunagar,0,0
+Hambantota,DHC Ilavalai,26,24
+Hambantota,DHC Karainagar,30,28
+Hambantota,DHC Karaveddy,23,23
+Hambantota,DHC Kodikamam,21,21
+Hambantota,DHC Kondavil,18,10
+Hambantota,DHC Mandaitivu,2,0
+Hambantota,DHC Manipay,8,352
+Hambantota,DHC Maruthankerny,25,25
+Hambantota,DHC Nainathivu,19,19
+Hambantota,DHC Pandatharippu,43,39
+Hambantota,DHC Punguduthivu,16,0
+Hambantota,DHC Vaddukoddai,230,0
+Hambantota,DHC Varani,3,2
+Hambantota,BH Sammanthurai,338,319
+Hambantota,BHB Ninthavur,114,100
+Hambantota,BHB Thirukovil,72,60
+Hambantota,DHB Akkaraipattu,63,55
+Hambantota,DHC Addalaichenai,50,39
+Hambantota,DHC Palamunai,44,41
+Hambantota,DHC Oluvil,59,30
+Hambantota,DHC Karaithivu,60,53
+Hambantota,DHA Sainthamaruthu,105,79
+Hambantota,DHB Maruthamunai,80,74
+Hambantota,DHC Central Camp,59,46
+Hambantota,DHC Irakkamam,39,14
+Hambantota,DHC Deegawapiya,38,19
+Hambantota,DHC Panankadu,30,26
+Kalmunai,DHC Malwatta,18,12
+Kalmunai,DHC Annamalai,25,21
+Kalmunai,DHC Sennelgramam,9,6
+Kalmunai,Kethumathie Women’s Hospital,153,126
+Kalmunai,DGH Horana,544,518
+Kalmunai,BHA Panadura,315,303
+Kalmunai,BHB Pimbura,157,137
+Kalmunai,DHA Ingiriya,123,101
+Kalmunai,DHA Mathugama,108,101
+Kalmunai,DHB Baduraliya,99,92
+Kalmunai,DHB Bandaragama,62,62
+Kalmunai,DHB Bulathsinhala,54,40
+Kalmunai,DHB Galpatha,58,50
+Kalmunai,Inpatient,,
+Kalmunai,Bed,,
+Kalmunai,Occupancy,,
+Kalmunai,Rate,,
+Kalmunai,Average,,
+Kalmunai,duration,,
+Kalmunai,of Stay,,
+Kalmunai,Turn,,
+Kalmunai,Over,,
+Kalmunai,hospital,,
+Kalmunai,beds,,
+Kalmunai,beds as at,,
+Kalmunai,instances where,,
+Kalmunai,patients were not,,
+Kalmunai,provided a bed due to,,
+Kalmunai,overcrowding Yes/No,,
+Kalmunai,DHB Ittepana,81,62
+Kalutara,DHB Katugahahena,73,52
+Kalutara,DHB Meegahathenna,99,99
+Kalutara,DHC Dodangoda,22,18
+Kalutara,DHC Geekiyanakanda,0,
+Kalutara,DHC Gonaduwa,47,42
+Kalutara,DHC Halthota,26,17
+Kalutara,DHC Neboda,46,35
+Kalutara,DHC Newchatal,,
+Kandy,Rehabilitation Hospital Digana,,
+Kandy,Mental Health Rehabilitation Hospital Sisila Deltota,,
+Kandy,Alcohol Rehabilitation Hospital Mampitiya,,
+Kandy,Prison Hospital Dumbara,83,15
+Kandy,Open Prison Hospital Pallekele,10,
+Kandy,BHB Teldeniya,285,254
+Kandy,DHA Akurana,86,76
+Kandy,Inpatient,,
+Kandy,Bed,,
+Kandy,Occupancy,,
+Kandy,Rate,,
+Kandy,Average,,
+Kandy,duration,,
+Kandy,of Stay,,
+Kandy,Turn,,
+Kandy,Over,,
+Kandy,hospital,,
+Kandy,beds,,
+Kandy,beds as at,,
+Kandy,instances where,,
+Kandy,patients were not,,
+Kandy,provided a bed due to,,
+Kandy,overcrowding Yes/No,,
+Kandy,DHA Ankumbura,66,63
+Kandy,DHA Deltota,68,63
+Kandy,DHA Dolosbage,34,29
+Kandy,DHA Galagedara,74,67
+Kandy,DHA Hasalaka,54,42
+Kandy,DHA Kadugannawa,74,64
+Kandy,DHA Katugastota,70,54
+Kandy,DHA Madolkale,75,62
+Kandy,DHA Mampitiya,44,38
+Kandy,DHA Marassana,43,35
+Kandy,DHA Menikhinna,75,60
+Kandy,DHA Pussellawa,74,71
+Kandy,DHA Thiththapajjala,61,50
+Kandy,DHA Ududumbara,74,68
+Kandy,DHA Wattegama,52,30
+Kandy,DHB Ambagahapallessa,44,41
+Kandy,DHB Bambaradeniya,43,43
+Kandy,DHB Bokkawala,60,54
+Kandy,DHB Galaha,28,28
+Kandy,DHB Galapihilla,24,19
+Kandy,DHB Gelioya,22,16
+Kandy,DHB Hatharaliyadda,50,48
+Kandy,DHB Jambugahapitiya,25,22
+Kandy,DHB Kolongoda,46,36
+Kandy,DHB Kotaligoda,45,40
+Kandy,DHB Kurunduwatte,44,39
+Kandy,DHB Medamahanuwara,34,30
+Kandy,DHB Medawala,51,37
+Kandy,DHB Morahena,22,18
+Kandy,DHB Morayaya Minipe,44,35
+Kandy,DHB Pamunuwa,26,22
+Kandy,DHB Panvilathenna,24,20
+Kandy,DHB Sangarajapura,30,22
+Kandy,DHB Thalathuoya,33,30
+Kandy,DHB Uduwela,40,27
+Kandy,DHB Yakgahapitiya,32,28
+Kandy,DHC Batumulla,26,21
+Kandy,DHC Dunhinna,16,14
+Kandy,DHC Kahawatta,25,24
+Kandy,DHC Muruthalawa,20,18
+Kandy,DHC Narampanawa,25,25
+Kandy,"DHC Pattiyagama, Pallegama",18,11
+Kandy,DHC Udagama Atabage,20,18
+Kandy,DHC Ulapane,15,12
+Kandy,DHC Wattappola,29,29
+Kandy,DHC Westhall,2,0
+Kandy,BHA Karawanella,394,360
+Kandy,BHB Mawanella,380,358
+Kandy,BHB Warakapola,345,265
+Kandy,DHA Aranayaka,85,83
+Kandy,DHA Deraniyagala,79,76
+Kandy,DHA Hemmathagama,58,47
+Kandy,DHA Kithulgala,184,119
+Kandy,DHA Rambukkana,183,160
+Kandy,DHA Undugoda,130,88
+Kandy,DHB Amithrigala,23,20
+Kandy,DHB Beligala,45,30
+Kandy,DHB Mahapallegama,26,22
+Kandy,DHC Amanawala,10,0
+Kandy,DHC Dedugala,10,0
+Kandy,DHC Dematanpitiya,25,100
+Kandy,DHC Ganthuna,12,0
+Kandy,DHC Gonagaldeniya,16,12
+Kandy,DHC Halgolla,5,0
+Kandy,DHC Higuralakanda,30,20
+Kandy,DHC Kiriporuwa,4,0
+Kandy,DHC Pindeniya,52,28
+Kandy,DHC Sapumalkanda,4,0
+Kilinochchi,DGH Kilinochchi,312,308
+Kilinochchi,BHB Mulankavil,39,36
+Kilinochchi,DHB Akkarayankulam,87,87
+Kilinochchi,DHC Palai,25,25
+Kilinochchi,DHC Poonakary,35,29
+Kilinochchi,DHC Tharmapuram,28,23
+Kilinochchi,DHC Uruthirapuram,3,0
+Kilinochchi,DHC Vaddakachchi,3,0
+Kilinochchi,DHC Veravil,17,15
+Kilinochchi,BHA Nikaweratiya,461,455
+Kilinochchi,BHB Dambadeniya,316,284
+Kilinochchi,BHB Galgamuwa,295,288
+Kilinochchi,BHB Polpitigama,126,115
+Kilinochchi,DHA Alawwa,124,112
+Kilinochchi,Inpatient,,
+Kilinochchi,Bed,,
+Kilinochchi,Occupancy,,
+Kilinochchi,Rate,,
+Kilinochchi,Average,,
+Kilinochchi,duration,,
+Kilinochchi,of Stay,,
+Kilinochchi,Turn,,
+Kilinochchi,Over,,
+Kilinochchi,hospital,,
+Kilinochchi,beds,,
+Kilinochchi,beds as at,,
+Kilinochchi,instances where,,
+Kilinochchi,patients were not,,
+Kilinochchi,provided a bed due to,,
+Kilinochchi,overcrowding Yes/No,,
+Kilinochchi,DHA Gokaralla,122,113
+Kilinochchi,DHA Hiripitiya,105,105
+Kilinochchi,DHA Maho,110,110
+Kilinochchi,DHA Mawathagama,114,98
+Kilinochchi,DHA Rideegama,110,101
+Kilinochchi,DHA Sandalankawa,110,101
+Kilinochchi,DHA Wariyapola,119,105
+Kilinochchi,DHB Ambampola,154,125
+Kilinochchi,DHB Bingiriya,73,67
+Kilinochchi,DHB Hettipola,75,75
+Kilinochchi,DHB Kadanegedara,27,27
+Kilinochchi,DHB Katupotha,73,60
+Kilinochchi,DHB Kobeigane,74,64
+Kilinochchi,DHB Meegalewa,55,53
+Kilinochchi,DHB Narammala,88,81
+Kilinochchi,DHB Nikawewa,40,36
+Kilinochchi,DHB Pahalagiribawa,45,36
+Kilinochchi,DHB Polgahawela,111,100
+Kilinochchi,DHB Thalampitiya,35,35
+Kilinochchi,DHC Atharagalla,15,12
+Kilinochchi,DHC Delvita,27,18
+Kilinochchi,DHC Dunakadeniya,22,22
+Kilinochchi,DHC Ehatuwewa,25,21
+Kilinochchi,DHC Gonigoda,73,60
+Kilinochchi,DHC Indulgodakanda,12,10
+Kilinochchi,DHC Karabe,15,11
+Kilinochchi,DHC Koshena,12,12
+Kilinochchi,DHC Kotawehera,25,15
+Kilinochchi,DHC Mahagirilla,32,26
+Kilinochchi,DHC Mahamukalanyaya,23,23
+Kilinochchi,DHC Mahananneriya,22,22
+Kilinochchi,DHC Mental Health Rehabilitation Unit - Uhumeeya,,
+Kilinochchi,DHC Muwanhela,24,24
+Kilinochchi,DHC Nagollagama,22,20
+Kilinochchi,DHC Nawathalwaththa,14,12
+Kurunegala,DHC Rajanganaya,14,12
+Kurunegala,DHC Weerambugedara (Gonawa),12,12
+Kurunegala,DHC Weerapokuna,13,13
+Kurunegala,DHC Wellawa,44,44
+Mannar,DGH Mannar,351,71
+Mannar,BHB Murunkan,55,48
+Mannar,DHB Adampan,27,20
+Mannar,DHB Chilawathurai,34,26
+Mannar,DHB Pesalai,29,21
+Mannar,DHB Thalaimannar,36,30
+Mannar,DHB Vidathalthivu,37,30
+Mannar,DHC Erukkalampiddy,23,10
+Mannar,DHC Nanattan,22,12
+Mannar,DHC Periyapandivirichan,17,8
+Mannar,Inpatient,,
+Mannar,Bed,,
+Mannar,Occupancy,,
+Mannar,Rate,,
+Mannar,Average,,
+Mannar,duration,,
+Mannar,of Stay,,
+Mannar,Turn,,
+Mannar,Over,,
+Mannar,hospital,,
+Mannar,beds,,
+Mannar,beds as at,,
+Mannar,instances where,,
+Mannar,patients were not,,
+Mannar,provided a bed due to,,
+Mannar,overcrowding Yes/No,,
+Mannar,DHC Vankalai,15,6
+Matale,BHA Dambulla,378,355
+Matale,DHA Galewela,78,71
+Matale,DHA Hettipola (or Wilgamuwa),48,45
+Matale,DHA Koongahawela,51,45
+Matale,DHA Laggala Pallegama,120,115
+Matale,DHA Madipola,60,49
+Matale,DHA Nalanda,46,40
+Matale,DHA Rattota,70,59
+Matale,DHB Handungamuwa,20,19
+Matale,DHB Hattota Amuna,33,30
+Matale,DHB Leliambe,21,18
+Matale,DHB Lenadora,21,17
+Matale,DHB Sigiriya,41,34
+Matale,DHB Yatawatta,52,45
+Matale,DHC Devahuwa,9,6
+Matale,Inpatient,,
+Matale,Bed,,
+Matale,Occupancy,,
+Matale,Rate,,
+Matale,Average,,
+Matale,duration,,
+Matale,of Stay,,
+Matale,Turn,,
+Matale,Over,,
+Matale,hospital,,
+Matale,beds,,
+Matale,beds as at,,
+Matale,instances where,,
+Matale,patients were not,,
+Matale,provided a bed due to,,
+Matale,overcrowding Yes/No,,
+Matale,DHC Gammaduwa,7,4
+Matale,DHC Ilukkumbura,8,6
+Matale,DHC Maraka,13,10
+Matale,DHC Muwandeniya,93,62
+Matale,DHC Ovilikanda,26,24
+Matara,BHA Kamburupitiya,322,306
+Matara,BHB Deniyaya,156,136
+Matara,DHA Akuressa,124,107
+Matara,DHA Mawarala,78,63
+Matara,DHA Weligama,106,101
+Matara,DHB Deiyandara,55,46
+Matara,DHB Dickwella,104,82
+Matara,DHB Gangodagama,62,53
+Matara,DHB Morawaka,110,100
+Matara,DHB Narawelpita,80,60
+Matara,DHB Urubokka,69,64
+Matara,Inpatient,,
+Matara,Bed,,
+Matara,Occupancy,,
+Matara,Rate,,
+Matara,Average,,
+Matara,duration,,
+Matara,of Stay,,
+Matara,Turn,,
+Matara,Over,,
+Matara,hospital,,
+Matara,beds,,
+Matara,beds as at,,
+Matara,instances where,,
+Matara,patients were not,,
+Matara,provided a bed due to,,
+Matara,overcrowding Yes/No,,
+Matara,DHC Kirinda Puhulwella,6,0
+Matara,DHC Kotapola / Kosmodera,0,0
+Matara,DHC Midigama,0,0
+Matara,DHC Pallegama,0,0
+Matara,DHC Ruhunugama,20,15
+Matara,DHC Thalalla,34,21
+Matara,DHC Urugamuwa,29,19
+Monaragala,Professor Senaka Bibile Memorial Hospital,303,266
+Monaragala,BHB Siyambalanduwa,92,82
+Monaragala,BHB Wellawaya,161,152
+Monaragala,DHA Buttala,110,92
+Monaragala,DHB Badalkumbura,60,57
+Monaragala,DHB Inginiyagala,65,54
+Monaragala,DHB Kataragama,85,66
+Monaragala,DHB Medagama,100,96
+Monaragala,Inpatient,,
+Monaragala,Bed,,
+Monaragala,Occupancy,,
+Monaragala,Rate,,
+Monaragala,Average,,
+Monaragala,duration,,
+Monaragala,of Stay,,
+Monaragala,Turn,,
+Monaragala,Over,,
+Monaragala,hospital,,
+Monaragala,beds,,
+Monaragala,beds as at,,
+Monaragala,instances where,,
+Monaragala,patients were not,,
+Monaragala,provided a bed due to,,
+Monaragala,overcrowding Yes/No,,
+Monaragala,DHB Thanamalwila,74,62
+Monaragala,DHC Dambagalla,40,29
+Monaragala,DHC Ethimale,29,27
+Monaragala,DHC Hambegamuwa,45,40
+Monaragala,DHC Handapanagala,15,14
+Monaragala,DHC Hingurukaduwa,24,21
+Monaragala,DHC Okkampitiya,45,36
+Monaragala,DHC Pitakumbura,31,29
+Monaragala,DHC Sevanagala,47,42
+Monaragala,DGH Mullaitivu,195,195
+Monaragala,BHA Mankulam,100,100
+Monaragala,BHB Mallavi,87,87
+Monaragala,BHB Puthukkudiyiruppu,100,100
+Monaragala,DHA Sampathnuwara,40,40
+Monaragala,DHB Oddusuddan,27,27
+Monaragala,DHB Unappulavu / Mullaitivu,24,24
+Monaragala,DHC Alampil,0,0
+Monaragala,DHC Kokulai,0,0
+Monaragala,DHC Moonkilaru,0,0
+Monaragala,DHC Nadankandal,0,0
+Nuwara Eliya,BHA Dickoya,232,212
+Nuwara Eliya,BHB Rikillagaskada,236,202
+Nuwara Eliya,DHA Maskeliya,73,70
+Nuwara Eliya,DHB Bogawanthalawa,54,51
+Nuwara Eliya,DHB Ginigathhena,55,49
+Nuwara Eliya,DHB Kotagala,69,66
+Nuwara Eliya,DHB Kothmale,52,47
+Nuwara Eliya,DHB Lindula,51,48
+Nuwara Eliya,DHB Maldeniya,88,86
+Nuwara Eliya,DHB Mathurata,57,55
+Nuwara Eliya,DHB Udupussallawa,80,78
+Nuwara Eliya,DHB Watawala,51,49
+Nuwara Eliya,Inpatient,,
+Nuwara Eliya,Bed,,
+Nuwara Eliya,Occupancy,,
+Nuwara Eliya,Rate,,
+Nuwara Eliya,Average,,
+Nuwara Eliya,duration,,
+Nuwara Eliya,of Stay,,
+Nuwara Eliya,Turn,,
+Nuwara Eliya,Over,,
+Nuwara Eliya,hospital,,
+Nuwara Eliya,beds,,
+Nuwara Eliya,beds as at,,
+Nuwara Eliya,instances where,,
+Nuwara Eliya,patients were not,,
+Nuwara Eliya,provided a bed due to,,
+Nuwara Eliya,overcrowding Yes/No,,
+Nuwara Eliya,DHC Agarapathana,46,44
+Nuwara Eliya,DHC Dayagama,37,36
+Nuwara Eliya,DHC Gonaganthenna,31,29
+Nuwara Eliya,DHC Gonapitiya,18,17
+Nuwara Eliya,DHC Haguranketha,50,49
+Nuwara Eliya,DHC Highforest,24,23
+Nuwara Eliya,DHC Laxapana,27,25
+Nuwara Eliya,DHC Madulla,23,22
+Nuwara Eliya,DHC Mandaramnuwara,9,8
+Nuwara Eliya,DHC Mooloya,25,23
+Nuwara Eliya,DHC Nildandahinna,32,27
+Nuwara Eliya,DHC North Medakumbura,19,17
+Nuwara Eliya,DHC Sri-Pada Nallathanniya,0,0
+Nuwara Eliya,DHC Theripaha,10,9
+Nuwara Eliya,DH Walapane,114,106
+Polonnaruwa,BHA Medirigiriya,261,221
+Polonnaruwa,BHB Hingurakgoda,117,90
+Polonnaruwa,BHB Welikanda,60,46
+Polonnaruwa,DHB Aralaganwila,55,45
+Polonnaruwa,DHB Bakamoona,84,80
+Polonnaruwa,DHB Pulasthigama,58,42
+Polonnaruwa,DHC Attanakadawala,45,35
+Polonnaruwa,DHC Diyabeduma,20,16
+Polonnaruwa,DHC Galamuna,40,32
+Polonnaruwa,DHC Jayanthipuraya & Rehabilitation Hospital,60,38
+Polonnaruwa,DHC Manampitiya,40,30
+Polonnaruwa,BHA Puttalam,477,462
+Polonnaruwa,BHB Anamaduwa,167,164
+Polonnaruwa,BHB Kalpitiya,73,67
+Polonnaruwa,BHB Marawila,367,352
+Polonnaruwa,DHA Dankotuwa,118,113
+Polonnaruwa,Inpatient,,
+Polonnaruwa,Bed,,
+Polonnaruwa,Occupancy,,
+Polonnaruwa,Rate,,
+Polonnaruwa,Average,,
+Polonnaruwa,duration,,
+Polonnaruwa,of Stay,,
+Polonnaruwa,Turn,,
+Polonnaruwa,Over,,
+Polonnaruwa,hospital,,
+Polonnaruwa,beds,,
+Polonnaruwa,beds as at,,
+Polonnaruwa,instances where,,
+Polonnaruwa,patients were not,,
+Polonnaruwa,provided a bed due to,,
+Polonnaruwa,overcrowding Yes/No,,
+Polonnaruwa,DHB Lunuwila,36,32
+Puttlam,DHB Mundalama,57,52
+Puttlam,DHB Udappuwa,26,22
+Puttlam,DHC Aluthgama,17,15
+Puttlam,DHC Anawilundawa,24,20
+Puttlam,DHC Galmuruwa,41,37
+Puttlam,DHC Koththanthivu,,
+Puttlam,DHC Kottukachchiya,20,16
+Puttlam,DHC Madampe,34,30
+Puttlam,DHC Nawagaththegama,36,32
+Puttlam,DHC Thabbowa,15,11
+Puttlam,DHC Wanathawilluva,23,20
+Ratnapura,BHA Balangoda,396,382
+Ratnapura,BHB Eheliyagoda,264,264
+Ratnapura,BHB Kahawatte,258,223
+Ratnapura,BHB Kalawana,107,84
+Ratnapura,Inpatient,,
+Ratnapura,Bed,,
+Ratnapura,Occupancy,,
+Ratnapura,Rate,,
+Ratnapura,Average,,
+Ratnapura,duration,,
+Ratnapura,of Stay,,
+Ratnapura,Turn,,
+Ratnapura,Over,,
+Ratnapura,hospital,,
+Ratnapura,beds,,
+Ratnapura,beds as at,,
+Ratnapura,instances where,,
+Ratnapura,patients were not,,
+Ratnapura,provided a bed due to,,
+Ratnapura,overcrowding Yes/No,,
+Ratnapura,BHB Kolonna,120,99
+Ratnapura,DHA Godakawela,100,85
+Ratnapura,DHA Kalthota,94,47
+Ratnapura,DHA Kiriella,116,77
+Ratnapura,DHA Nivithigala,92,65
+Ratnapura,DHA Pallebedda,50,50
+Ratnapura,DHA Rakwana,116,87
+Ratnapura,DHB Ayagama,72,52
+Ratnapura,DHB Chandrikawewa,70,60
+Ratnapura,DHB Erathna,65,49
+Ratnapura,DHB Gileemale,54,31
+Ratnapura,DHB Marathanna,35,30
+Ratnapura,DHB Pothupitiya,26,20
+Ratnapura,DHB Waligepola,39,23
+Ratnapura,DHC Alupola,16,0
+Ratnapura,DHC Belihuloya,30,19
+Ratnapura,DHC Dumbara,1,
+Ratnapura,DHC Endana,36,28
+Ratnapura,DHC Gallella,51,37
+Ratnapura,DHC Hunuwala,35,20
+Ratnapura,DHC Kiribathgala,10,
+Ratnapura,DHC Kiriporuwa,31,17
+Ratnapura,DHC Madampe,6,4
+Ratnapura,DHC Mahawalathanna,24,5
+Ratnapura,DHC Omalpe,32,18
+Ratnapura,DHC Palamkotte,8,5
+Ratnapura,DHC Pelmadulla,27,24
+Ratnapura,DHC Ranwala,47,22
+Ratnapura,DHC Rassagala,16,12
+Ratnapura,DHC Sooriyakanda,16,12
+Ratnapura,DHC Theppanawa,22,19
+Ratnapura,DHC Udawalawa,39,17
+Ratnapura,DHC Weragama,5,3
+Trincomalee,BHA Kinniya,146,129
+Trincomalee,BHA Mutur,158,135
+Trincomalee,BHB Pulmoddai,40,32
+Trincomalee,DHB Padavi Sripura,48,36
+Trincomalee,DHC Eachilampathai,28,26
+Trincomalee,DHC Gomarankadawala,30,30
+Trincomalee,DHC Kilivetty,40,35
+Trincomalee,DHC Kuchchaveli,30,29
+Trincomalee,DHC Mahadivulwewa,25,22
+Trincomalee,DHC Nilaveli,30,26
+Trincomalee,DHC Sampoor,24,22
+Trincomalee,DHC Selvanayagapuram,9,3
+Trincomalee,DHC Serunuwara,36,33
+Trincomalee,DHC Seruwila,30,29
+Trincomalee,DHC Thampalagamam,28,22
+Trincomalee,DHC Thoppur,28,22
+Trincomalee,DHC Wan-ela,8,4
+Trincomalee,Inpatient,,
+Trincomalee,Bed,,
+Trincomalee,Occupancy,,
+Trincomalee,Rate,,
+Trincomalee,Average,,
+Trincomalee,duration,,
+Trincomalee,of Stay,,
+Trincomalee,Turn,,
+Trincomalee,Over,,
+Trincomalee,hospital,,
+Trincomalee,beds,,
+Trincomalee,beds as at,,
+Trincomalee,instances where,,
+Trincomalee,patients were not,,
+Trincomalee,provided a bed due to,,
+Trincomalee,overcrowding Yes/No,,
+Vavuniya,DGH Vavuniya,565,523
+Vavuniya,BHB Cheddikulam,93,90
+Vavuniya,DHB Nedunkerny,38,35
+Vavuniya,DHB Poovarasankulam,53,53
+Vavuniya,DHC Mamaduwa,11,9
+Vavuniya,DHC Neriyakulam,11,8
+Vavuniya,DHC Omanthai,,
+Vavuniya,DHC Pavatkulam,,
+Vavuniya,DHC Puliyankulam,6,3
+Vavuniya,Sithamparapuram,11,11
+Vavuniya,DHC Ulukkulam,12,12
+Vavuniya,Inpatient,,
+Vavuniya,Bed,,
+Vavuniya,Occupancy,,
+Vavuniya,Rate,,
+Vavuniya,Average,,
+Vavuniya,duration,,
+Vavuniya,of Stay,,
+Vavuniya,Turn,,
+Vavuniya,Over,,
+Vavuniya,hospital,,
+Vavuniya,beds,,
+Vavuniya,beds as at,,

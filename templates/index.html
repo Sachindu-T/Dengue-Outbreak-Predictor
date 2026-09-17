@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dengue Watch &middot; Outbreak Intelligence</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- ============================================================ SIDEBAR -->
+  <aside class="app-sidebar">
+    <div class="brand">
+      <span class="brand-mark"><i class="bi bi-droplet-half"></i></span>
+      <div class="brand-text">
+        <span class="brand-title">Dengue Watch</span>
+        <span class="brand-sub">Outbreak Intelligence</span>
+      </div>
+    </div>
+
+    <ul class="nav nav-pills flex-column app-nav" id="appTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="tab-overview" data-bs-toggle="pill" data-bs-target="#pane-overview" type="button" role="tab">
+          <i class="bi bi-grid-1x2"></i><span>Overview</span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-predict" data-bs-toggle="pill" data-bs-target="#pane-predict" type="button" role="tab">
+          <i class="bi bi-graph-up-arrow"></i><span>Outbreak Prediction</span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-historical" data-bs-toggle="pill" data-bs-target="#pane-historical" type="button" role="tab">
+          <i class="bi bi-bar-chart-steps"></i><span>Historical Cases</span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-population" data-bs-toggle="pill" data-bs-target="#pane-population" type="button" role="tab">
+          <i class="bi bi-people"></i><span>Population &amp; Weather</span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-hospital" data-bs-toggle="pill" data-bs-target="#pane-hospital" type="button" role="tab">
+          <i class="bi bi-hospital"></i><span>Hospital Capacity</span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-assistant" data-bs-toggle="pill" onclick="window.location.href='/chatbot'" type="button" role="tab">
+          <i class="bi bi-chat-heart"></i><span>Health Assistant</span>
+        </button>
+      </li>
+    </ul>
+
+    <div class="sidebar-foot">
+      <div class="model-status {{ 'is-live' if model_loaded else 'is-fallback' }}">
+        <span class="dot"></span>
+        {% if model_loaded %}Trained model connected{% else %}Heuristic fallback mode{% endif %}
+      </div>
+      <p class="sidebar-note">Sabaragamuwa University &middot; Data Science</p>
+    </div>
+  </aside>
+
+  <!-- ============================================================= MAIN -->
+  <main class="app-main">
+
+    <div class="tab-content">
+
+      <!-- ---------------------------------------------------- OVERVIEW -->
+      <section class="tab-pane fade show active" id="pane-overview" role="tabpanel">
+        <header class="pane-header">
+          <div>
+            <h1>Sri Lanka dengue surveillance</h1>
+            <p class="pane-lede">A weekly read on case load, climate drivers and hospital strain across all 25 districts.</p>
+          </div>
+        </header>
+
+        <div class="stat-row" id="overviewStats">
+          <div class="stat-card"><span class="stat-label">Loading…</span></div>
+        </div>
+
+        <div class="chart-grid two-col">
+          <div class="panel">
+            <div class="panel-head">
+              <h2>Cases per year</h2>
+              <span class="panel-hint">All districts combined</span>
+            </div>
+            <div class="panel-body"><canvas id="chartAnnual" height="230"></canvas></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head">
+              <h2>Top 5 districts, over time</h2>
+              <span class="panel-hint">By cumulative case count</span>
+            </div>
+            <div class="panel-body"><canvas id="chartTop5" height="230"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------------------- PREDICTION -->
+      <section class="tab-pane fade" id="pane-predict" role="tabpanel">
+        <header class="pane-header">
+          <div>
+            <h1>Outbreak prediction</h1>
+            <p class="pane-lede">Estimate next week's case load for a district and see how it stacks up against dengue bed capacity.</p>
+          </div>
+        </header>
+
+        <div class="predict-grid">
+          <form class="panel predict-form" id="predictForm">
+            <div class="panel-head"><h2>Forecast inputs</h2></div>
+            <div class="panel-body">
+              <div class="mb-3">
+                <label class="form-label" for="fDistrict">District</label>
+                <select class="form-select" id="fDistrict" required>
+                  {% for d in districts %}<option value="{{ d }}">{{ d }}</option>{% endfor %}
+                </select>
+              </div>
+              <div class="row g-3">
+                <div class="col-6">
+                  <label class="form-label" for="fYear">Year</label>
+                  <input type="number" class="form-control" id="fYear" min="2015" max="2035" value="2026" required>
+                </div>
+                <div class="col-6">
+                  <label class="form-label" for="fWeek">Epi week</label>
+                  <input type="number" class="form-control" id="fWeek" min="1" max="53" value="20" required>
+                </div>
+              </div>
+              <div class="row g-3 mt-1">
+                <div class="col-6">
+                  <label class="form-label" for="fTemp">Mean temp &deg;C <span class="opt">optional</span></label>
+                  <input type="number" step="0.1" class="form-control" id="fTemp" placeholder="auto">
+                </div>
+                <div class="col-6">
+                  <label class="form-label" for="fRain">Rainfall mm <span class="opt">optional</span></label>
+                  <input type="number" step="0.1" class="form-control" id="fRain" placeholder="auto">
+                </div>
+              </div>
+              <p class="form-footnote">Leave weather fields blank to use the district's historical average for that week.</p>
+              <button type="submit" class="btn btn-brand w-100">
+                <i class="bi bi-lightning-charge-fill"></i> Run prediction
+              </button>
+            </div>
+          </form>
+
+          <div class="panel predict-result">
+            <div class="panel-head"><h2>Result</h2></div>
+            <div class="panel-body" id="predictResult">
+              <div class="empty-state">
+                <i class="bi bi-graph-up-arrow"></i>
+                <p>Fill in the form and run a prediction to see the forecast, risk band and capacity gauge here.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------------------- HISTORICAL -->
+      <section class="tab-pane fade" id="pane-historical" role="tabpanel">
+        <header class="pane-header">
+          <div>
+            <h1>Historical case data</h1>
+            <p class="pane-lede">Explore how confirmed dengue cases have moved across years, districts and the seasonal calendar.</p>
+          </div>
+        </header>
+
+        <div class="chart-grid two-col">
+          <div class="panel">
+            <div class="panel-head"><h2>Total cases by district</h2></div>
+            <div class="panel-body"><canvas id="chartDistrictTotals" height="320"></canvas></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head">
+              <h2>Monthly pattern</h2>
+              <select class="form-select form-select-sm w-auto" id="monthlyYearSelect"></select>
+            </div>
+            <div class="panel-body"><canvas id="chartMonthly" height="320"></canvas></div>
+          </div>
+        </div>
+
+        <div class="panel mt-4">
+          <div class="panel-head">
+            <h2>District deep dive</h2>
+            <select class="form-select form-select-sm w-auto" id="districtDeepSelect"></select>
+          </div>
+          <div class="panel-body">
+            <div class="row g-4 align-items-center">
+              <div class="col-md-8"><canvas id="chartDistrictYearly" height="220"></canvas></div>
+              <div class="col-md-4" id="districtDeepStats"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------------------- POPULATION -->
+      <section class="tab-pane fade" id="pane-population" role="tabpanel">
+        <header class="pane-header">
+          <div>
+            <h1>Population &amp; weather</h1>
+            <p class="pane-lede">Case rates relative to population, and the temperature/rainfall patterns behind them.</p>
+          </div>
+        </header>
+
+        <div class="chart-grid two-col">
+          <div class="panel">
+            <div class="panel-head"><h2>Population by district</h2></div>
+            <div class="panel-body"><canvas id="chartPopulation" height="320"></canvas></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head"><h2>Cases per 100k residents</h2></div>
+            <div class="panel-body"><canvas id="chartCasesPer100k" height="320"></canvas></div>
+          </div>
+        </div>
+
+        <div class="chart-grid two-col mt-4">
+          <div class="panel">
+            <div class="panel-head"><h2>Rainfall &amp; temperature by year</h2></div>
+            <div class="panel-body"><canvas id="chartWeatherYearly" height="260"></canvas></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head"><h2>Seasonal pattern by month</h2></div>
+            <div class="panel-body"><canvas id="chartWeatherMonthly" height="260"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------------------- HOSPITAL -->
+      <section class="tab-pane fade" id="pane-hospital" role="tabpanel">
+        <header class="pane-header">
+          <div>
+            <h1>Hospital bed capacity</h1>
+            <p class="pane-lede">Dengue-allocated beds by district, assumed at 30% of total hospital capacity.</p>
+          </div>
+        </header>
+
+        <div class="panel">
+          <div class="panel-head"><h2>Beds allocated for dengue care</h2></div>
+          <div class="panel-body"><canvas id="chartHospital" height="340"></canvas></div>
+        </div>
+
+        <div class="panel mt-4">
+          <div class="panel-head"><h2>Full breakdown</h2></div>
+          <div class="panel-body table-wrap">
+            <table class="table table-hover align-middle" id="hospitalTable">
+              <thead><tr><th>District</th><th>Total beds</th><th>Dengue beds (30%)</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------------------- ASSISTANT -->
+      <section class="tab-pane fade" id="pane-assistant" role="tabpanel">
+        <header class="pane-header">
+          <div>
+            <h1>Health assistant</h1>
+            <p class="pane-lede">General guidance on dengue symptoms, prevention and warning signs. Not a substitute for medical care.</p>
+          </div>
+        </header>
+
+        <div class="panel chat-panel">
+          <div class="panel-body chat-body" id="chatBody">
+            <div class="chat-msg bot">
+              <div class="chat-bubble">
+                Hello — I can help with general dengue questions: symptoms, prevention, home care, testing, and warning signs. What would you like to know?
+              </div>
+            </div>
+          </div>
+          <div class="chat-quick" id="chatQuick">
+            <button type="button" class="chip" data-q="What are the symptoms of dengue?">Symptoms</button>
+            <button type="button" class="chip" data-q="How can I prevent dengue?">Prevention</button>
+            <button type="button" class="chip" data-q="What are the warning signs I should watch for?">Warning signs</button>
+            <button type="button" class="chip" data-q="How is dengue treated at home?">Home care</button>
+          </div>
+          <form class="chat-input" id="chatForm">
+            <input type="text" class="form-control" id="chatInput" placeholder="Ask about dengue symptoms, prevention, care…" autocomplete="off">
+            <button class="btn btn-brand" type="submit"><i class="bi bi-send-fill"></i></button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
