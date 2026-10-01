@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', 'IBM Plex Sans', sans-serif;
+  }
+}
+
+/* Custom scrollbars and utility styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animated mosquito wing flutter */
+@keyframes wing-flutter {
+  0% { transform: rotate(-26deg); }
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(26deg); }
+}
+
+.animate-wing-left {
+  animation: wing-flutter 0.07s linear infinite alternate;
+  transform-origin: 22px 14px;
+}
+
+.animate-wing-right {
+  animation: wing-flutter 0.07s linear infinite alternate-reverse;
+  transform-origin: 22px 14px;
+}
+
+/* Mosquito fly-across trajectory (Left to Right) */
+@keyframes mosquito-traverse {
+  0% {
+    transform: translate(-10vw, 25vh) rotate(-8deg) scale(0.85);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.95;
+  }
+  25% {
+    transform: translate(22vw, 15vh) rotate(10deg) scale(1);
+  }
+  45% {
+    transform: translate(46vw, 34vh) rotate(-14deg) scale(1.05);
+  }
+  65% {
+    transform: translate(72vw, 14vh) rotate(12deg) scale(0.95);
+  }
+  88% {
+    transform: translate(94vw, 26vh) rotate(-4deg) scale(0.9);
+    opacity: 0.95;
+  }
+  100% {
+    transform: translate(110vw, 18vh) rotate(8deg) scale(0.8);
+    opacity: 0;
+  }
+}
+
+.animate-mosquito-flight {
+  animation: mosquito-traverse 7.8s cubic-bezier(0.38, 0.02, 0.22, 0.98) forwards;
+}
+
+/* Mosquito fly-across trajectory (Right to Left) */
+@keyframes mosquito-traverse-alt {
+  0% {
+    transform: translate(110vw, 32vh) rotate(-172deg) scale(0.85);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.95;
+  }
+  28% {
+    transform: translate(75vw, 16vh) rotate(-158deg) scale(1);
+  }
+  50% {
+    transform: translate(48vw, 38vh) rotate(-186deg) scale(1.05);
+  }
+  72% {
+    transform: translate(24vw, 14vh) rotate(-164deg) scale(0.95);
+  }
+  90% {
+    transform: translate(6vw, 24vh) rotate(-174deg) scale(0.9);
+    opacity: 0.95;
+  }
+  100% {
+    transform: translate(-12vw, 20vh) rotate(-170deg) scale(0.8);
+    opacity: 0;
+  }
+}
+
+.animate-mosquito-flight-alt {
+  animation: mosquito-traverse-alt 8.2s cubic-bezier(0.38, 0.02, 0.22, 0.98) forwards;
+}
+
+/* Sri Lanka dot pulse */
+@keyframes district-radar {
+  0% {
+    r: 2.5;
+    opacity: 0.85;
+  }
+  75% {
+    r: 10;
+    opacity: 0;
+  }
+  100% {
+    r: 10;
+    opacity: 0;
+  }
+}
+
+.animate-district-pulse {
+  animation: district-radar 2.6s cubic-bezier(0.2, 0.6, 0.35, 1) infinite;
+}

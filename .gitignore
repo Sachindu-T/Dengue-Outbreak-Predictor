@@ -4,3 +4,12 @@ __pycache__/
 catboost_info/
 .vscode/
 streamlit/secrets.toml
+
+# Secrets
+.env
+*.env
+
+# Trained model artifacts (too large for Git: >100MB per file)
+*.pkl
+backend/model/saved_models_temperature/
+backend/model/saved_models_rainfall/
