@@ -63,8 +63,7 @@ export const PredictionPage = () => {
           {loading && (
             <div className="bg-white dark:bg-slate-800 rounded-2xl p-12 text-center border border-slate-200 dark:border-slate-700 shadow-sm">
               <div className="w-8 h-8 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin mx-auto mb-3" />
-              <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">Running Django ML & ARIMA Models...</p>
-              <p className="text-xs text-slate-400 mt-1">Calling POST http://localhost:8000/api/predict</p>
+              <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">Running Django ML & Time Series Models...</p>
             </div>
           )}
 

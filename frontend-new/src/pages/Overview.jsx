@@ -88,7 +88,7 @@ export const OverviewPage = () => {
         <MetricCard
           label="Reported Cases"
           value={data ? data.totalCases.toLocaleString() : "..."}
-          context={`${selectedYear} national annual total (real backend data)`}
+          context={`${selectedYear} national annual total cases`}
           icon={Activity}
           trend={data && data.yoyChange !== 0 ? { value: data.yoyChange, label: "vs prior year" } : undefined}
           color="emerald"

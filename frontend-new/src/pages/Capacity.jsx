@@ -108,7 +108,7 @@ export const CapacityPage = () => {
           <div className="text-2xl font-bold font-mono text-orange-600 dark:text-orange-400">
             {strainedCount} Districts
           </div>
-          <p className="text-xs text-slate-400 mt-1">&ge; 70% peak utilisation threshold</p>
+          <p className="text-xs text-slate-400 mt-1">&ge; 75% peak utilisation threshold</p>
         </div>
 
         <div className="bg-white dark:bg-slate-800 rounded-2xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm transition-colors duration-200">
@@ -119,7 +119,7 @@ export const CapacityPage = () => {
           <div className="text-2xl font-bold font-mono text-rose-600 dark:text-rose-400">
             {criticalCount} Districts
           </div>
-          <p className="text-xs text-slate-400 mt-1">&ge; 95% surge capacity warning</p>
+          <p className="text-xs text-slate-400 mt-1">&ge; 100% surge capacity warning</p>
         </div>
       </div>
 

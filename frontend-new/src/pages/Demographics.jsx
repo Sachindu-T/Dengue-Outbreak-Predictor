@@ -132,6 +132,7 @@ export const DemographicsPage = () => {
                 <YAxis
                   type="category"
                   dataKey="name"
+                  interval={0}   
                   axisLine={false}
                   tickLine={false}
                   tick={{ fill: "#cbd5e1", fontSize: 11, fontWeight: 500 }}
@@ -186,6 +187,7 @@ export const DemographicsPage = () => {
                 <YAxis
                   type="category"
                   dataKey="name"
+                  interval={0}  
                   axisLine={false}
                   tickLine={false}
                   tick={{ fill: "#cbd5e1", fontSize: 11, fontWeight: 500 }}

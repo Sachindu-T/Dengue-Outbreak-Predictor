@@ -261,7 +261,6 @@ import numpy as np
 import os
 import joblib
 import pmdarima as pm
-
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 
@@ -338,7 +337,7 @@ for district in districts:
 
     if os.path.exists(temperature_file):
 
-        print("odel already exists...")
+        print("Model already exists...")
 
         # temp_model = joblib.load(
         #     temperature_file

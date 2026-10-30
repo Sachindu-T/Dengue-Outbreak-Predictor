@@ -14,10 +14,18 @@ import pickle
 import os
 import joblib
 import pathlib
+import numpy as np
 
 
 BASE_DIR = os.path.abspath('.')
 
+def predict_model(name, model, n_periods):
+    """Forecast n_periods ahead with a saved candidate model."""
+    if name == 'SeasonalNaive':
+        # model is the last 52 weekly values; repeat them cyclically
+        return np.resize(model, n_periods)
+    return model.predict(n_periods=n_periods)  
+    
 def PredictTemperature(year, week, district):
     model_path = os.path.join(BASE_DIR,f'model\\saved_models_temperature\\{district}.pkl')
     try:
@@ -36,9 +44,7 @@ def PredictTemperature(year, week, district):
     if weeks_ahead <= 0:
         return "Predictions can only perform for future data."
     # Forecast
-    predictions = temp_model.predict(
-        n_periods=weeks_ahead
-    )
+    predictions = predict_model(temp_model['model_name'], temp_model['model'], weeks_ahead)
 
     return float(round(predictions[-1],2))
 
@@ -63,9 +69,7 @@ def PredictRainfall(year, week, district):
     if weeks_ahead <= 0:
         return "Predictions can only perform for future data."
     # Forecast
-    predictions = rainfall_model.predict(
-        n_periods=weeks_ahead
-    )
+    predictions = predict_model(rainfall_model['model_name'], rainfall_model['model'], weeks_ahead)
 
     return float(round(predictions[-1],2))
     
