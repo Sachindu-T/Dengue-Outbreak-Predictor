@@ -276,7 +276,6 @@ The frontend will be available at `http://localhost:5173`.
 
 ## Screenshots
 
-> _Add screenshots of the dashboard, prediction page, HBPI panel, and RAG chatbot here._
 ![alt text](<Screenshot 2026-10-24 132724.png>)
 ![alt text](<Screenshot 2026-10-24 132747.png>)
 ![alt text](<Screenshot 2026-10-24 132900.png>)
